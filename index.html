@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>project</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="menu-adaptive" id="menu-adaptive"><img src="./images/{62472813-F453-40CF-9F2B-7673483C0C76}.png"
+					alt=""></div>
+
+			<ul class="menu menu-none" id="menu">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">TEAM</a></li>
+				<li class="booking"><a href="#">BOOKING</a>
+					<a href="#" class="logo"></a>
+				</li>
+				<li><a href="#">MENU</a></li>
+				<li><a href="#">GALERY</a></li>
+				<li><a href="#">EVENTS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</nav>
+
+		<div class="header-main">
+			<div class="left-header">
+				<a href="#">
+					Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+				</a>
+			</div>
+			<div class="center-header">
+				<a href="#" class="hungry"> RESTAURANT</a>
+				<h1>hungry people</h1>
+				<p>
+					<a href="#" class="book">Book table</a>
+					<a href="#" class="book">Explore</a>
+				</p>
+			</div>
+			<div class="right-header">
+				<div><a href="#"></a></div>
+				<div><a href="#"></a></div>
+				<div><a href="#"></a></div>
+			</div>
+		</div>
+
+
+	</header>
+
+	<!-- <button id = "calculator" class = "btn" onclick = "alert('Hello')">Calculator</button> -->
+	<button id="calculator" class="btn">Calculator</button>
+	<section>
+		<form action="" class="form-poll form-none" method="GET" autocomplete="on" id="form-test">
+			<h2>Заполните форму</h2>
+			<div class="form-poll__data">
+				<p>
+					<b>Введите ваше имя</b>
+					<input type="text" name="username">
+				</p>
+				<p>
+					<b>Введите ваш email</b>
+					<input type="email" name="email">
+				</p>
+			</div>
+			<div class="form-poll__data">
+				<p>
+					<b>Введите ваш пароль</b>
+					<input type="password" name="password" required>
+				</p>
+				<p>
+					<b>Введите ваш возраст</b>
+					<input type="number" name="age">
+				</p>
+			</div>
+			<p>
+				<b>Выберите ваш любимый цвет</b>
+				<input type="color" name="color">
+			</p>
+			<p>
+				<b>Прикрепите ваше резюме</b>
+				<input type="file" name="file">
+			</p>
+			<p>
+				<b>Выберите дату</b>
+				<input type="date" name="date">
+			</p>
+			<p>
+				<b>Выберите напиток</b>
+				<br>
+				<input type="checkbox" id="lime" name="drink" value="lime">
+				<label for="lime">Лайм</label>
+				<input type="checkbox" id="lemon" name="drink" value="lemon">
+				<label for="lemon">Лимонад</label>
+				<input type="checkbox" id="cola" name="drink" value="cola">
+				<label for="cola">Кока Кола</label>
+			</p>
+			<p>
+				<b>Выберите фрукты</b>
+				<br>
+				<input type="radio" id="limef" name="fruit" value="limef" checked>
+				<label for="limef">Лайм</label>
+				<input type="radio" id="lem" name="fruit" value="lem">
+				<label for="lem">Лимон</label>
+				<input type="radio" id="apple" name="fruit" value="apple">
+				<label for="apple">яблоко</label>
+			</p>
+			<p>
+				<b>Напишите комментарий</b>
+				<br>
+				<textarea name="coments" id="" cols="30" rows="3"></textarea>
+
+
+			</p>
+			<p>
+				<!-- <input type="reset" value="Очистить">
+				<input type="submit"> -->
+				<button type="reset">Очистить</button>
+				<button type="submit">Отправить</button>
+			</p>
+			<span id="close-form">&#9746;</span>
+		</form>
+	</section>
+	<button id="login">Login</button>
+	<div class="slider">
+		<ul class="slides" id="slides">
+			<li class="slide showing"><a href="#"></a></li>
+			<li class="slide"><a href="#"></a></li>
+			<li class="slide"><a href="#"></a></li>
+			<li class="slide"><a href="#"></a></li>
+			<li class="slide"><a href="#"></a></li>
+		</ul>
+		<span class="toggle-slide toggle-slide-prev" id="toggle-prev">&larr;</span>
+		<span class="toggle-slide toggle-slide-next" id="toggle-next">&rarr;</span>
+		<div class = "toggle-radio" id = "toggle-radio">
+			<input type="radio" name = "toggle-radio" value = "0" checked>
+			<input type="radio" name = "toggle-radio" value = "1">
+			<input type="radio" name = "toggle-radio" value = "2">
+			<input type="radio" name = "toggle-radio" value = "3">
+			<input type="radio" name = "toggle-radio" value = "4">
+		</div>
+		<ul class="slides-min" id="slides-min">
+			<li><img src="./images/slide_1.jpg" alt="" id = "0" class="slide-min slide-active"></li>
+			<li><img src="./images/slide_2.jpg" alt="" id = "1" class="slide-min"></li>
+			<li><img src="./images/slide_3.jpg" alt="" id = "2" class="slide-min"></li>
+			<li><img src="./images/slide_4.jpg" alt="" id = "3" class="slide-min"></li>
+			<li><img src="./images/slide_5.jpg" alt="" id = "4" class="slide-min"></li>
+		</ul>
+	</div>
+	<section class="wrap booking-wrap">
+		<div class="booking">
+			<div class="booking__form-wrap">
+				<h2 class="booking__title">book a table</h2>
+				<form action="" class="booking__form">
+					<div><input type="text" name="clientName" placeholder="Name"></div>
+					<div><input type="email" name="clientEmail" placeholder="Email"></div>
+					<div><input type="tel" name="clientPhone" placeholder="Phone"></div>
+					<div  class="booking__select"><input type="text" name="clientPeople" placeholder="People"></div>
+					<div><input name="clientDate"placeholder="Date (mm/dd)"></div>
+					<div  class="booking__select"><input type="text" name="clientTime" placeholder="Time"></div>
+					<button type="submit" class="booking__submit">Book now</button>
+				</form>
+			</div>
+			<div class="booking__img">
+				<img src="./images/about-img.svg" alt="">
+			</div>
+		</div>
+	</section>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
