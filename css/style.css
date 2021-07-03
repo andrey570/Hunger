@@ -62,8 +62,6 @@ body {
 
 input {
     background: #E5E5E5;
-    border-radius: 5px;
-    height: 60px;
     text-indent: 20px;
 }
 
@@ -307,7 +305,7 @@ header h1 {
 
 .form-poll {
     background: orangered;
-    width: 300px;
+    width: 350px;
     padding: 20px;
     border-radius: 5px;
 }
@@ -524,5 +522,8 @@ header h1 {
     border: 20px solid #E8C300;
     top: 125px;
     right: -75px;
+}
+.booking__input{
+    height: 60px;
 }
 /* booking-end */
